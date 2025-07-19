@@ -1,0 +1,536 @@
+{
+  "title": "Golang Developer Roadmap 2025",
+  "subtitle": "From Beginner to Intermediate Level",
+  "sections": [
+    {
+      "id": "fundamentals",
+      "title": "Programming Fundamentals",
+      "level": "Beginner",
+      "description": "Build a strong foundation with these essentials",
+      "icon": "\ud83d\udcda",
+      "color": "#4CAF50",
+      "topics": [
+        {
+          "title": "How the Internet Works",
+          "description": "Understand HTTP/HTTPS, APIs, and web communication",
+          "items": [
+            "HTTP methods (GET, POST, PUT, DELETE)",
+            "Status codes (200, 404, 500, etc.)",
+            "Headers and cookies",
+            "REST API principles",
+            "JSON data format"
+          ]
+        },
+        {
+          "title": "Programming Basics",
+          "description": "Core programming concepts and problem-solving skills",
+          "items": [
+            "Variables and data types",
+            "Control structures (if/else, loops)",
+            "Functions and scope",
+            "Basic algorithms and data structures",
+            "Problem-solving techniques"
+          ]
+        },
+        {
+          "title": "Version Control",
+          "description": "Master Git for collaborative development",
+          "items": [
+            "Git basics (init, add, commit, push, pull)",
+            "Branching and merging",
+            "GitHub/GitLab workflow",
+            "Pull requests and code reviews",
+            "Git best practices"
+          ]
+        },
+        {
+          "title": "Command Line",
+          "description": "Navigate and operate efficiently via terminal",
+          "items": [
+            "Basic terminal commands",
+            "File system navigation",
+            "Environment variables",
+            "Package managers",
+            "Shell scripting basics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "go-basics",
+      "title": "Go Language Fundamentals",
+      "level": "Beginner",
+      "description": "Learn Go syntax, concepts, and basic programming",
+      "icon": "\ud83d\udc39",
+      "color": "#00ADD8",
+      "topics": [
+        {
+          "title": "Go Installation & Setup",
+          "description": "Get Go running on your system",
+          "items": [
+            "Download and install Go",
+            "Set up GOPATH and GOROOT",
+            "Configure IDE (VS Code, GoLand)",
+            "Install Go extensions",
+            "First 'Hello World' program"
+          ]
+        },
+        {
+          "title": "Basic Syntax",
+          "description": "Master Go's fundamental syntax",
+          "items": [
+            "Package declaration and imports",
+            "Variables and constants",
+            "Data types (int, string, bool, etc.)",
+            "Functions and return values",
+            "Comments and documentation"
+          ]
+        },
+        {
+          "title": "Control Structures",
+          "description": "Flow control in Go programs",
+          "items": [
+            "If/else statements",
+            "Switch statements",
+            "For loops (all variations)",
+            "Range keyword",
+            "Break and continue"
+          ]
+        },
+        {
+          "title": "Data Structures",
+          "description": "Organize and store data effectively",
+          "items": [
+            "Arrays and slices",
+            "Maps (hash tables)",
+            "Structs and methods",
+            "Pointers basics",
+            "Make and new functions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intermediate-go",
+      "title": "Intermediate Go Concepts",
+      "level": "Intermediate",
+      "description": "Dive deeper into Go's powerful features",
+      "icon": "\u26a1",
+      "color": "#FFC107",
+      "topics": [
+        {
+          "title": "Interfaces & Polymorphism",
+          "description": "Write flexible and reusable code",
+          "items": [
+            "Interface definition and implementation",
+            "Empty interface (interface{})",
+            "Type assertions and switches",
+            "Interface composition",
+            "Common interfaces (io.Reader, io.Writer)"
+          ]
+        },
+        {
+          "title": "Error Handling",
+          "description": "Handle errors gracefully and effectively",
+          "items": [
+            "Error interface and custom errors",
+            "Error wrapping and unwrapping",
+            "Panic and recover",
+            "Best practices for error handling",
+            "Error handling patterns"
+          ]
+        },
+        {
+          "title": "Packages & Modules",
+          "description": "Organize code and manage dependencies",
+          "items": [
+            "Creating and using packages",
+            "Go modules (go.mod, go.sum)",
+            "Importing packages",
+            "Package visibility (public/private)",
+            "Dependency management"
+          ]
+        },
+        {
+          "title": "File I/O & JSON",
+          "description": "Work with files and data formats",
+          "items": [
+            "Reading and writing files",
+            "JSON marshaling/unmarshaling",
+            "Working with buffers",
+            "File path manipulation",
+            "Configuration file handling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "title": "Concurrency & Goroutines",
+      "level": "Intermediate",
+      "description": "Master Go's powerful concurrency model",
+      "icon": "\ud83d\ude80",
+      "color": "#9C27B0",
+      "topics": [
+        {
+          "title": "Goroutines",
+          "description": "Lightweight concurrent execution",
+          "items": [
+            "Creating and running goroutines",
+            "Goroutine lifecycle",
+            "WaitGroups for synchronization",
+            "Best practices with goroutines",
+            "Avoiding goroutine leaks"
+          ]
+        },
+        {
+          "title": "Channels",
+          "description": "Communication between goroutines",
+          "items": [
+            "Channel creation and usage",
+            "Buffered vs unbuffered channels",
+            "Channel directions",
+            "Select statement",
+            "Channel patterns and idioms"
+          ]
+        },
+        {
+          "title": "Synchronization",
+          "description": "Coordinate concurrent operations",
+          "items": [
+            "Mutexes and RWMutex",
+            "Atomic operations",
+            "Once synchronization",
+            "Context package",
+            "Race condition prevention"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-development",
+      "title": "Web Development with Go",
+      "level": "Intermediate",
+      "description": "Build web applications and APIs",
+      "icon": "\ud83c\udf10",
+      "color": "#2196F3",
+      "topics": [
+        {
+          "title": "HTTP Server Basics",
+          "description": "Build HTTP servers with standard library",
+          "items": [
+            "net/http package",
+            "Creating HTTP handlers",
+            "URL routing and parameters",
+            "Serving static files",
+            "HTTP middleware patterns"
+          ]
+        },
+        {
+          "title": "Web Frameworks",
+          "description": "Popular frameworks for web development",
+          "items": [
+            "Gin framework basics",
+            "Echo framework overview",
+            "Fiber for high performance",
+            "Chi router for simplicity",
+            "Choosing the right framework"
+          ]
+        },
+        {
+          "title": "RESTful APIs",
+          "description": "Design and implement REST APIs",
+          "items": [
+            "REST principles and conventions",
+            "CRUD operations",
+            "API versioning",
+            "Request/response handling",
+            "API documentation"
+          ]
+        },
+        {
+          "title": "Templates & Static Files",
+          "description": "Render HTML and serve assets",
+          "items": [
+            "html/template package",
+            "Template syntax and functions",
+            "Static file serving",
+            "CSS and JavaScript integration",
+            "Template inheritance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "title": "Database Integration",
+      "level": "Intermediate",
+      "description": "Connect Go applications to databases",
+      "icon": "\ud83d\uddc4\ufe0f",
+      "color": "#FF5722",
+      "topics": [
+        {
+          "title": "Database/SQL Package",
+          "description": "Standard library database interface",
+          "items": [
+            "Opening database connections",
+            "Executing queries (Query, QueryRow, Exec)",
+            "Prepared statements",
+            "Connection pooling",
+            "Transaction handling"
+          ]
+        },
+        {
+          "title": "Popular Databases",
+          "description": "Work with different database systems",
+          "items": [
+            "PostgreSQL with pq driver",
+            "MySQL with go-sql-driver",
+            "SQLite for lightweight apps",
+            "MongoDB with official driver",
+            "Redis for caching and sessions"
+          ]
+        },
+        {
+          "title": "ORM Libraries",
+          "description": "Object-Relational Mapping tools",
+          "items": [
+            "GORM basics and setup",
+            "Model definitions and relationships",
+            "Migrations and schema management",
+            "Query building and associations",
+            "Alternative ORMs (Ent, SQLBoiler)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing & Quality Assurance",
+      "level": "Intermediate",
+      "description": "Ensure code quality and reliability",
+      "icon": "\u2705",
+      "color": "#4CAF50",
+      "topics": [
+        {
+          "title": "Unit Testing",
+          "description": "Test individual components",
+          "items": [
+            "testing package basics",
+            "Writing test functions",
+            "Table-driven tests",
+            "Test helpers and utilities",
+            "Mocking and test doubles"
+          ]
+        },
+        {
+          "title": "Benchmarking",
+          "description": "Measure and optimize performance",
+          "items": [
+            "Writing benchmark functions",
+            "Running and analyzing benchmarks",
+            "Memory profiling",
+            "CPU profiling",
+            "Performance optimization tips"
+          ]
+        },
+        {
+          "title": "Integration Testing",
+          "description": "Test component interactions",
+          "items": [
+            "HTTP testing with httptest",
+            "Database testing strategies",
+            "Test containers and fixtures",
+            "End-to-end testing approaches",
+            "CI/CD integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools-practices",
+      "title": "Tools & Best Practices",
+      "level": "Intermediate",
+      "description": "Essential tools and development practices",
+      "icon": "\ud83d\udee0\ufe0f",
+      "color": "#607D8B",
+      "topics": [
+        {
+          "title": "Go Tools",
+          "description": "Built-in and essential external tools",
+          "items": [
+            "gofmt for code formatting",
+            "goimports for import management",
+            "go vet for code analysis",
+            "golint and golangci-lint",
+            "go generate for code generation"
+          ]
+        },
+        {
+          "title": "Project Structure",
+          "description": "Organize Go projects effectively",
+          "items": [
+            "Standard Go project layout",
+            "cmd, pkg, internal directories",
+            "Module organization",
+            "Configuration management",
+            "Documentation practices"
+          ]
+        },
+        {
+          "title": "Dependency Management",
+          "description": "Manage external packages",
+          "items": [
+            "go mod commands",
+            "Semantic versioning",
+            "Vendor directory",
+            "Private modules",
+            "Dependency updates and security"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "title": "Deployment & Production",
+      "level": "Intermediate",
+      "description": "Deploy Go applications to production",
+      "icon": "\ud83d\ude80",
+      "color": "#FF9800",
+      "topics": [
+        {
+          "title": "Building & Deployment",
+          "description": "Compile and deploy Go applications",
+          "items": [
+            "Cross-platform compilation",
+            "Building for different architectures",
+            "Binary optimization",
+            "Environment configuration",
+            "Process management"
+          ]
+        },
+        {
+          "title": "Containerization",
+          "description": "Package apps with Docker",
+          "items": [
+            "Docker basics and Dockerfile",
+            "Multi-stage builds",
+            "Image optimization",
+            "Docker Compose",
+            "Container best practices"
+          ]
+        },
+        {
+          "title": "CI/CD Basics",
+          "description": "Automated testing and deployment",
+          "items": [
+            "GitHub Actions for Go",
+            "GitLab CI pipelines",
+            "Automated testing",
+            "Build and deploy workflows",
+            "Environment management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "next-steps",
+      "title": "Next Steps & Resources",
+      "level": "Beyond Intermediate",
+      "description": "Continue your Go journey",
+      "icon": "\ud83c\udfaf",
+      "color": "#8BC34A",
+      "topics": [
+        {
+          "title": "Advanced Topics to Explore",
+          "description": "Areas for further learning",
+          "items": [
+            "Microservices architecture",
+            "gRPC and Protocol Buffers",
+            "Advanced concurrency patterns",
+            "Performance optimization",
+            "Security best practices"
+          ]
+        },
+        {
+          "title": "Ecosystem & Community",
+          "description": "Engage with the Go community",
+          "items": [
+            "Go conferences and meetups",
+            "Open source contributions",
+            "Go blog and documentation",
+            "Reddit r/golang community",
+            "Stack Overflow and forums"
+          ]
+        },
+        {
+          "title": "Learning Resources",
+          "description": "Books, courses, and tutorials",
+          "items": [
+            "The Go Programming Language book",
+            "Effective Go documentation",
+            "Go by Example website",
+            "Online courses and tutorials",
+            "Practice coding challenges"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Hello World CLI",
+      "level": "Beginner",
+      "description": "Build a simple command-line application",
+      "skills": [
+        "Basic syntax",
+        "Functions",
+        "Command-line arguments"
+      ]
+    },
+    {
+      "title": "Todo List API",
+      "level": "Beginner-Intermediate",
+      "description": "Create a RESTful API for managing tasks",
+      "skills": [
+        "HTTP servers",
+        "JSON",
+        "Data structures",
+        "Error handling"
+      ]
+    },
+    {
+      "title": "File Processor",
+      "level": "Intermediate",
+      "description": "Process files concurrently with goroutines",
+      "skills": [
+        "Concurrency",
+        "File I/O",
+        "Channels",
+        "Error handling"
+      ]
+    },
+    {
+      "title": "Web Scraper",
+      "level": "Intermediate",
+      "description": "Build a concurrent web scraper",
+      "skills": [
+        "HTTP client",
+        "HTML parsing",
+        "Concurrency",
+        "Rate limiting"
+      ]
+    },
+    {
+      "title": "Blog Application",
+      "level": "Intermediate",
+      "description": "Full-stack blog with database integration",
+      "skills": [
+        "Web frameworks",
+        "Database",
+        "Templates",
+        "Authentication"
+      ]
+    }
+  ]
+}
